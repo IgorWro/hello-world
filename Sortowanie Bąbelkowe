@@ -11,9 +11,3 @@ def bubble_sort(arr):​
  arr[j], arr[j+1] = arr[j+1], arr[j]​
 
  return arr
-
-test_list = [64, 34, 25, 12, 22, 11, 90]
-sorted_list = bubble_sort(test_list)
-
-print(f"Lista wejściowa: [64, 34, 25, 12, 22, 11, 90]")
-print(f"Lista posortowana: {sorted_list}")
