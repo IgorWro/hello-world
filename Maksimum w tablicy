@@ -1,22 +1,36 @@
+Pseudokod:
+max = tablica[0]​
+
+DLA każdy element w tablica:​
+
+JEŻELI element > max:​
+
+max = element​
+
+Zwróć max
+
+Złożoność liniowa O(n)
+
+Implementacja:
 def znajdz_max(tablica):​
 
-    if len(tablica) == 0:​
+if len(tablica) == 0:​
 
-        return None​
+return None​
 
-    ​
+​
 
-    max_wartosc = tablica[0]​
+max_wartosc = tablica[0]​
 
-    for element in tablica:​
+for element in tablica:​
 
-        if element > max_wartosc:​
+if element > max_wartosc:​
 
-            max_wartosc = element​
+max_wartosc = element​
 
-    ​
+​
 
-    return max_wartosc​
+return max_wartosc​
 
 ​
 
@@ -24,4 +38,4 @@ def znajdz_max(tablica):​
 
 liczby = [3, 1, 4, 1, 5, 9, 2, 6]​
 
-print(znajdz_max(liczby))
+print(znajdz_max(liczby)) # 9​
